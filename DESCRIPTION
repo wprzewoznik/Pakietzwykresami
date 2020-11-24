@@ -18,7 +18,8 @@ RoxygenNote: 7.1.1
 Imports: 
     base,
     dplyr,
-    tibble
+    tibble,
+    magrittr
 Suggests:
     knitr,
     rmarkdown,
