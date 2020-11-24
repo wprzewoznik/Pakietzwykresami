@@ -1,16 +1,21 @@
 Package: Pakietzwykresami
-Title: What the Package Does (One Line, Title Case)
+Title: Pakiet do obliczania i wizualizacji emisji 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Wojciech",
+           family = "Przewoznik",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "wprzewoznik@student.agh.edu.pl",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Pakiet obliczajacy emisje EMEP/EEA zanieczyszczenia powietrza,
+             a takze wizualizujacy za pomoca wykresu wartosci z obiektu df, 
+             bedacego zapisanym wynikiem dzialania funkcji "obl_emisji".
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    base,
+    dplyr,
+    tibble
