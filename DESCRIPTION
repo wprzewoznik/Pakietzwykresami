@@ -1,5 +1,5 @@
 Package: Pakietzwykresami
-Title: Pakiet do obliczania i wizualizacji emisji 
+Title: Pakiet do obliczania i wizualizacji emisji
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Wojciech",
@@ -19,3 +19,8 @@ Imports:
     base,
     dplyr,
     tibble
+Suggests:
+    knitr,
+    rmarkdown,
+    ggplot2
+ 

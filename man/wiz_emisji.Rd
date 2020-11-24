@@ -4,7 +4,7 @@
 \alias{wiz_emisji}
 \title{Title Funkcja wiz_emisji()}
 \usage{
-wiz_emisji(dane = podsum)
+wiz_emisji()
 }
 \arguments{
 \item{dane}{data_frame}
