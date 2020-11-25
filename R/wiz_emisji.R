@@ -7,16 +7,16 @@
 #'
 #' @examples
 #' wiz_emisji()
-wiz_emisji <- function()
+wiz_emisji <- function(dane = out)
 {
-  #  nowy %>%
-  #    group_by(Segment) %>%
-  #    summarise(emis = sum(Emisja)) %>%
-  #    ggplot(., aes(Segment, emis)) +
-  #    geom_col() -> wykres
+    nowy %>%
+      group_by(Segment) %>%
+      summarise(emis = sum(Emisja)) %>%
+      ggplot(., aes(Segment, emis)) +
+      geom_col() -> wykres
 
-  a = rnorm(100)
-  wykres=hist(a)
+  #a = rnorm(100)
+  #wykres=hist(a)
   return(wykres)
 }
 
