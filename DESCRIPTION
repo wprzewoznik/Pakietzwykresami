@@ -19,9 +19,9 @@ Imports:
     base,
     dplyr,
     tibble,
-    magrittr
-Suggests:
+    magrittr,
+Suggests: 
     knitr,
     rmarkdown,
     ggplot2
- 
+VignetteBuilder: knitr
