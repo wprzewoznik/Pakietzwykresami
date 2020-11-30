@@ -19,7 +19,7 @@ Plik do wczytywania danych zewnetrznych koniecznych do dzialania pakietu
 }
 \examples{
 \dontrun{
- plikdanef
+ plikdane
 }
 }
 \keyword{datasets}

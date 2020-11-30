@@ -5,7 +5,7 @@
 #' \describe{}
 #' @examples
 #' \dontrun{
-#'  plikdanef
+#'  plikdane
 #' }
 "input"
 "wskazniki"
